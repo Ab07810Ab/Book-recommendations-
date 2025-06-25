@@ -16,6 +16,9 @@ popular_df = popular_df.rename(columns={
     'Book-Author': 'book_author',
     'Image-URL-M': 'image_url'
 })
+popular_df['book_title']
+popular_df['book_author']
+popular_df['image_url']
 
 # Streamlit setup
 st.set_page_config(page_title="📚 Book Recommender", layout="wide")
