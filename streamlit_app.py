@@ -7,7 +7,7 @@ similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 st.title("📚 Book Recommendation System")
 
-book_list = books['title'].values
+book_list = books['book-title'].values
 selected_book = st.selectbox("Choose a Book", book_list)
 
 def recommend(book_name):
