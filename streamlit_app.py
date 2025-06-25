@@ -7,7 +7,7 @@ import numpy as np
 popular_df = pickle.load(open('popular.pkl', 'rb'))
 pt = pickle.load(open('pt.pkl', 'rb'))
 books = pickle.load(open('books.pkl', 'rb'))
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+similarity_scores = pickle.load(open('similarity_scores.pkl', 'rb'))
 
 # Rename columns for easy access
 popular_df.columns = popular_df.columns.str.strip()
